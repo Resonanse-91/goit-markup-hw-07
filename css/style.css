@@ -641,19 +641,6 @@ img {
   | Feature section
   |============================
 */
-.title-feature {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  color: var(--color-txt);
-  margin: 0 auto;
-  margin-bottom: 8px;
-  text-align: center;
-  text-transform: capitalize;
-}
 
 .feature-section {
   padding-top: 96px;
@@ -666,6 +653,8 @@ img {
     padding-bottom: 120px;
   }
 }
+
+
 
 @media only screen and (min-width: 768px) {
   .title-feature {
@@ -712,15 +701,7 @@ img {
   }
 }
 
-.feature-container {
-  display: flex;
-  align-items: center;
-  padding: 0 15px;
-}
-
-
-
-.feature-block {
+.feature-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: var(--indent-vertical24col);
@@ -729,7 +710,29 @@ img {
   background-color: var(--header-cl);
 }
 
+.feature-item {
+  max-width: 396px;
+}
 
+@media only screen and (min-width: 768px) {
+  .feature-item {
+    max-width: 356px;
+    flex-basis: calc((100% - 1 * var(--indent-vertical24col)) / 2);
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .feature-item {
+    max-width: 264px;
+    flex-basis: calc((100% - 3 * 24px) / 4);
+  }
+}
+
+.feature-container {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
 
 .feature-style-icon {
   display: none;
