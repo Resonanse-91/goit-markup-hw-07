@@ -61,12 +61,6 @@ html {
   padding: 96px 0;
 }
 
-.header-nav-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
 .container {
   min-width: 320px;
   max-width: 428px;
@@ -318,13 +312,13 @@ img {
 }
 
 @media only screen and (min-width: 1158px) {
-  .item {
+  .item-mail {
     margin-right: 40px;
   }
 }
 
 @media only screen and (max-width: 1158px) {
-  .item {
+  .item-mail {
     margin-bottom: 12px;
   }
 }
