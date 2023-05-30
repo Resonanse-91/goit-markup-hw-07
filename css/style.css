@@ -1120,7 +1120,7 @@ img {
   }
 }
 
-.backdrop.is-hidden .modal {
+.backdrop .is-hidden .modal {
   opacity: 0;
   transform: translateX(-50%) translateY(-70%);
   transition-delay: 0ms;
