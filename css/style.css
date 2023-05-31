@@ -241,8 +241,8 @@ img {
   font-style: normal;
 }
 
-.header-nav-list {
-  display: flex;
+.header-nav {
+  display: none;
   align-items: center;
   gap: 40px;
 }
