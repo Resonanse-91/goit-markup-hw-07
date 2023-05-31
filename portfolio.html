@@ -28,25 +28,22 @@
       <div class="header-container container">
         <nav class="nav">
           <a class="link-logo link" href="./index.html"
-            >Web<span class="link-first">Studio</span></a
-          >
-          <ul class="header-nav-list">
+            >Web<span class="link-first">Studio</span></a>
+          <ul class="header-nav header-nav-list">
             <li class="item">
-              <a class="link nav-link" href="./index.html">Studio</a>
+              <a class="nav-link link active" href="./index.html">Studio</a>
             </li>
             <li class="item">
-              <a class="link nav-link active" href="./portfolio.html"
-                >Portfolio</a
-              >
+              <a class="nav-link link" href="./portfolio.html">Portfolio</a>
             </li>
             <li class="item">
-              <a class="link nav-link" href="">Contacts</a>
+              <a class="nav-link link" href="">Contacts</a>
             </li>
           </ul>
         </nav>
         <address class="adress">
           <ul class="header-link link-list list">
-            <li class="item">
+            <li class="item-mail">
               <a
                 class="header-contact link-list link"
                 href="mailto:info@devstudio.com"
@@ -54,12 +51,21 @@
               >
             </li>
             <li class="item">
-              <a class="link-list link" href="tel:+110001111111"
+              <a class="header-contact link-list link" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
           </ul>
         </address>
+        <button
+            class="menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg width="32" height="22">
+              <use href="./images/icons.svg#burger"></use>
+            </svg>
+          </button>
       </div>
     </header>
     <main class="main-section">
@@ -295,13 +301,13 @@
           <a class="link link-logo-footer" href="./index.html"
             >Web<span class="logo-second">Studio</span></a
           >
-          <p class="text">
+          <p class="footer-text">
             Increase the flow of customers and sales for your business with
             digital marketing &amp; growth solutions.
           </p>
         </div>
         <div class="footer-media-link">
-          <p class="footer-text">Social media</p>
+          <p class="text-footer">Social media</p>
           <ul class="footer-social list">
             <li class="socials-item">
               <a
@@ -361,14 +367,7 @@
           <p class="footer-form-title">Subscribe</p>
           <form class="footer-form">
             <label class="footer-form-field">
-              <input
-                class="footer-form-input"
-                type="email"
-                name="user_email"
-                placeholder="E-mail"
-                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-                title="Формат має бути example@gmail.com"
-              />
+              <input class="footer-form-input" type="email" name="user_email" placeholder="E-mail">
             </label>
             <button class="footer-form-btn" type="submit">
               Subscribe
