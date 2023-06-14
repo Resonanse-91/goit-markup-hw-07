@@ -1632,6 +1632,19 @@ img {
   border-top: none;
 }
 
+.poster-subtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: left;
+  letter-spacing: 0.02em;
+  color: var(--main-txt-cl);
+  margin: 0 auto;
+  margin-bottom: 8px;
+}
+
 .poster-item {
   height: 420px;
   text-decoration: none;
