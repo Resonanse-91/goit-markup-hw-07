@@ -1626,6 +1626,12 @@ img {
   color: var(--secondary-txt-cl);
 }
 
+.poster-card {
+  padding: 32px 16px;
+  border: 1px solid var(--bcg-btn);
+  border-top: none;
+}
+
 .poster-item {
   height: 420px;
   text-decoration: none;
