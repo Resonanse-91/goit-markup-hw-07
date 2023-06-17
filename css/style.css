@@ -1217,9 +1217,10 @@ img {
 
 .form-textarea-comment {
   display: block;
-  width: 100%;
+  width: 360px;
   height: 120px;
-  padding: 14px;
+  padding-top: 8px;
+  padding-left: 16px;
   resize: none;
   font-weight: 400;
   font-size: 12px;
